@@ -8,5 +8,8 @@ services:
       - '3000:3000'
     volumes:
     - ../:/home/project:rw
+    - ./gcloud-key.json:/home/gcloud-key.json:rw
+    environment:
+      - "GOOGLE_APPLICATION_CREDENTIALS=/home/gcloud-key.json"
     working_dir: "/home/project"
     command: /bin/bash -c "tail -f /dev/null"

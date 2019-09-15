@@ -1,0 +1,5 @@
+entrypoint: bundle exec rails s -p $PORT -b 0.0.0.0
+runtime: ruby25
+
+env_variables:
+  SECRET_KEY_BASE: e189a162f1526f379c1454748a86e96435c2570a20b5e0ce72fe8e25ad0404016092cdd5a6fb61ffad6996d4888ec47bd949f2c4e4c661de5eca4af017592a8c

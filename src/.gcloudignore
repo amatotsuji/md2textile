@@ -1,0 +1,7 @@
+.gcloudignore
+#!include:.gitignore
+.git
+.gitignore
+node_modules
+
+!/public/assets

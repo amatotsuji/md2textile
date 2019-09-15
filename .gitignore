@@ -3,4 +3,6 @@ src/vendor/bundle
 src/node_modules
 src/tmp
 src/log
-
+containers/gcloud-key.json
+src/public/assets/
+src/public/packs/
