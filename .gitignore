@@ -1,0 +1,6 @@
+vendor/bundle
+src/vendor/bundle
+src/node_modules
+src/tmp
+src/log
+

@@ -1,0 +1,12 @@
+version: '2'
+services:
+  app:
+    build: app
+    expose:
+      - 3000
+    ports:
+      - '3000:3000'
+    volumes:
+    - ../:/home/project:rw
+    working_dir: "/home/project"
+    command: /bin/bash -c "tail -f /dev/null"
